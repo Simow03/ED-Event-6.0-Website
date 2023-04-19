@@ -27,8 +27,8 @@
 
 ### Frameworks
 
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [Bootstrap.com][Bootstrap-url]
+* [JQuery.com][JQuery-url]
 
 ### Built with
 
@@ -40,7 +40,6 @@
 - Media queries
 - Data attributes
 - [Bootstrap](https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css) - Bootstrap uses
-- [AOS](https://unpkg.com/aos@next/dist/aos.css/) - Animation on scroll CSS library
 - [AOS](https://unpkg.com/aos@next/dist/aos.js) - Animation on scroll JS library
 
 ### Useful resources
