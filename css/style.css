@@ -915,6 +915,9 @@ footer a:hover {
 .sponsorsousimg[data-big="bigger"] img{
   width:110%;
 }
+.sponsorsousimg[data-big="big"] img{
+  width:140%;
+}
 .center {
   display: flex;
   align-items: center;
@@ -1384,6 +1387,9 @@ footer a:hover {
   }
   .sponsorsousimg[data-big="bigger"] img{
     width: 60%;
+  }
+  .sponsorsousimg[data-big="big"] img{
+    width: 90%;
   }
   
 }
