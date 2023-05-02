@@ -298,7 +298,7 @@ body {
 #main {
   position: relative;
   /* TODO: Change bg */
-  background-image: url("/assets-pictures/ED-landing-bg-3.png");
+  background-image: url("/assets-pictures/ED-landing-bg-3.webp");
   /* background: black; */
   background-size: cover;
   background-repeat: no-repeat;
@@ -407,7 +407,7 @@ header {
   position: relative;
   text-align: center;
   margin-bottom: 10rem;
-  background-image: url("../assets/about1.png");
+  background-image: url("../assets/about1.webp");
   background-size: auto;
   padding: 15px;
 }
@@ -451,7 +451,7 @@ header {
 #gallery {
   padding-bottom: 15px;
   background-repeat: no-repeat;
-  background-image: url("../assets-pictures/global-bg.png");
+  background-image: url("../assets-pictures/global-bg.webp");
   background-size: cover;
   height: auto;
   background-color: black;
@@ -1063,7 +1063,7 @@ footer a:hover {
   #main {
     position: relative;
     /* TODO: chnage mobile picture */
-    /* background-image: url("../assets/bgmobile.png");
+    /* background-image: url("../assets/bgmobile.webp");
   background-size: cover;
   background-repeat: no-repeat; */
     height: 100vh;
@@ -1095,7 +1095,7 @@ footer a:hover {
     overflow: hidden;
     height: auto;
     /* TODO: change the background picture */
-    /* background-image: url(../assets/about2.png); */
+    /* background-image: url(../assets/about2.webp); */
     padding: 0px;
     margin-bottom: 0;
   }
@@ -1130,7 +1130,7 @@ footer a:hover {
     background-image: none;
     background-size: cover;
     height: auto;
-    background-image: url("../assets-pictures/global-bg-mobile.png");
+    background-image: url("../assets-pictures/global-bg-mobile.webp");
   }
   .pastevents {
     width: 90%;
@@ -1285,7 +1285,7 @@ footer a:hover {
   .contactmail {
     padding-left: 11%;
 
-    /*background-image: ur(../assets/envelope.png);
+    /*background-image: ur(../assets/envelope.webp);
     background-repeat: no-repeat;
     background-size: 16px;*/
   }
