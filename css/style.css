@@ -633,7 +633,6 @@ hr.style3 {
   margin-left: 0%;
 }
 #sponsors {
-  padding: 10px 10px 30px 10px;
   background: white;
   width: 100%;
 }
@@ -912,6 +911,9 @@ footer a:hover {
 }
 .sponsorsousimg[data-small="smaller"] img{
   width: 50%;
+}
+.sponsorsousimg[data-big="bigger"] img{
+  width:110%;
 }
 .center {
   display: flex;
@@ -1380,4 +1382,8 @@ footer a:hover {
   .sponsorsousimg[data-small="smaller"] img{
     width: 30%;
   }
+  .sponsorsousimg[data-big="bigger"] img{
+    width: 60%;
+  }
+  
 }
