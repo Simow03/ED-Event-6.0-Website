@@ -898,6 +898,20 @@ footer a:hover {
 .briefspeakerprofiletext {
   text-align: justify;
 }
+.row-grid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+.compititionimg {
+  width: 100%;
+  height: auto;
+}
+.compititionimg img {
+  width:50%;
+  height: auto;
+}
+
 .sponsorsousimg {
   width: 100%;
   height: auto;
@@ -905,6 +919,9 @@ footer a:hover {
 .sponsorsousimg img {
   width: 70%;
   height: auto;
+}
+.compititionimg[data-small="small"] img{
+  width: 30%;
 }
 .sponsorsousimg[data-small="small"] img{
   width: 60%;
@@ -1032,7 +1049,6 @@ footer a:hover {
   transform: translateY(5px);
   transition: all .3s;
 }
-
 @media only screen and (max-width: 1190px) {
   .container {
     display: block;
@@ -1304,6 +1320,9 @@ footer a:hover {
     margin-top: 40px;
     width: 100%;
   }
+  #contactus {
+    z-index: 2;
+  }
   #contactus h1 {
     text-align: center;
     font-size: 20px;
@@ -1391,5 +1410,10 @@ footer a:hover {
   .sponsorsousimg[data-big="big"] img{
     width: 90%;
   }
-  
+  .row-grid {
+    margin-top: 3rem;
+    gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:1fr 1fr;
+  } 
 }
