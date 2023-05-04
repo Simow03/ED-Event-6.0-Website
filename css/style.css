@@ -908,7 +908,7 @@ footer a:hover {
   height: auto;
 }
 .compititionimg img {
-  width:50%;
+  width:60%;
   height: auto;
 }
 
@@ -1416,4 +1416,11 @@ footer a:hover {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows:1fr 1fr;
   } 
+  .compititionimg img {
+    width:90%;
+    height: auto;
+  }
+  .compititionimg[data-small="small"] img{
+    width: 50%;
+  }
 }
