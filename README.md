@@ -16,7 +16,7 @@
 
 ### Screenshot
 
-![](/assets-pictures/website-screenshot.png)
+![](/assets-pictures//website-full-screenshot.png)
 
 ### Links
 
